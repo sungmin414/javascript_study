@@ -3,7 +3,7 @@
 // use this for Valina Javascript.
 'use strict';
 
-// 2. Variable 변수
+// 2. Variable 변수, rw(read/write)
 // let (added in ES6) 변수를 사용할땐 let을 사용
 let globalName = 'global name'
 {
@@ -21,7 +21,7 @@ console.log(globalName);
 // var hoistingㅇㅣ란? 어디에 선언했나 상관없이 항상 제일 위로 선언을 끌어올려준다
 // has no block scope 블럭스코프 상관없이 값이 할당된다
 
-// 3 Constants
+// 3 Constants, r(read only)
 // 값이 잠겨져있음 값을 변경 못함
 // - security 보안
 // - thread safety 다양한쓰레드들이 효율적으로 사용가능
