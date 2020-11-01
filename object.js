@@ -99,6 +99,7 @@ console.log(user4);
 // another example (다른예시)
 const fruit1 = {color:'red'};
 const fruit2 = {color:'blue', size: 'big'};
+// 뒤에 있는 const가 덮어씌움
 const mixed = Object.assign({}, fruit1, fruit2);
 console.log(mixed.color);
 console.log(mixed.size);
